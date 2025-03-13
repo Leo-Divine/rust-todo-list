@@ -8,5 +8,7 @@ fn main() -> iced::Result {
 
 #[derive(Debug, Clone)]
 enum Message {
-    Increment,
+    Submit,
+    TextInputUpdate(String),
+    TaskCompleted(usize),
 }
