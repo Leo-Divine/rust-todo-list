@@ -21,7 +21,6 @@ mod id_counter {
     }
 }
 
-#[derive(Clone)]
 struct Task {
     id: usize,
     text: String
